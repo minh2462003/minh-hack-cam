@@ -20,6 +20,6 @@ ip_input = st.text_input("IP Address to brute force")
 a = st.text_input("1st num")
 b = st.text_input("2nd num")
 
-if(a != None && b != None):
+if(a != None and b != None):
     result = testSum(a, b)
     st.write("Target IP address is", result)
